@@ -19,6 +19,8 @@ object StreamwordCount {
       .map((_, 1))
       .keyBy(_._1)
       .sum(1)
+    
+    print("aaaa")
 
     value.print()
 
